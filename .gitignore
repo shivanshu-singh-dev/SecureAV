@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Python Environment Files
+# =========================
+.python-version
+.env
+.env.*
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Model Artifacts
+# =========================
+modules/layer2_sensor/model.pkl
+
+# Uncomment if datasets become too large
+# modules/layer2_sensor/data/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
